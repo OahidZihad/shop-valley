@@ -16,8 +16,6 @@ const useStyles = makeStyles((theme) => ({
   },
   grid: {
     display: "flex",
-    // gridTemplateRow: "autoFit",
-    // gridAutoRows: "1fr",
     marginLeft: "45px",
     marginRight: "45px",
     justifyContent: "space-between",
@@ -30,15 +28,8 @@ const Product = (props) => {
   return (
     <Grid>
       <Paper className={classes.paper}>
-        <img
-          style={{ height: "300px" }}
-          // src={require(`../../images/${pic}`).default}
-          src={imageUrl}
-          alt=""
-        />
+        <img style={{ height: "300px" }} src={imageUrl} alt="" />
         <h2 style={{ fontWeight: "700" }}>{name}</h2>
-        {/* <Grid spacing={1}> */}
-        {/* <Grid item xs={12}> */}
         <div className={classes.grid}>
           <h3 style={{ fontSize: "25px", color: "limegreen" }}>${price}</h3>
           <Button
@@ -46,16 +37,13 @@ const Product = (props) => {
               backgroundColor: "limegreen",
               color: "white",
               marginTop: "25px",
-              //   marginLeft: "25px",
               marginBottom: "25px",
+              fontWeight: "600",
             }}
           >
             Buy Now
           </Button>
         </div>
-
-        {/* </Grid> */}
-        {/* </Grid> */}
       </Paper>
     </Grid>
   );

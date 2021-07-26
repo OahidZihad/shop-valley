@@ -242,14 +242,6 @@ const AddProduct = () => {
                   <div>
                     <br />
                   </div>
-                  {/* <TextField
-                    placeholder=" Enter Name"
-                    {...register("name")}
-                    required
-                    id="outlined-size-small"
-                    variant="outlined"
-                    size="small"
-                  /> */}
                   <input
                     placeholder=" Enter Name"
                     {...register("name")}
@@ -263,14 +255,6 @@ const AddProduct = () => {
                   <div>
                     <br />
                   </div>
-                  {/* <TextField
-                    placeholder=" Enter Weight"
-                    {...register("weight")}
-                    required
-                    id="outlined-size-small"
-                    variant="outlined"
-                    size="small"
-                  /> */}
                   <input
                     placeholder=" Enter Weight"
                     {...register("weight")}
@@ -284,14 +268,6 @@ const AddProduct = () => {
                   <div>
                     <br />
                   </div>
-                  {/* <TextField
-                    placeholder=" Enter Price"
-                    {...register("price")}
-                    required
-                    id="outlined-size-small"
-                    variant="outlined"
-                    size="small"
-                  /> */}
                   <input
                     placeholder=" Enter Price"
                     {...register("price")}
@@ -305,17 +281,6 @@ const AddProduct = () => {
                   <div>
                     <br />
                   </div>
-                  {/* <TextField
-                    // placeholder=" Enter Name"
-                    // {...register("name")}
-                    name="exampleRequired"
-                    type="file"
-                    onChange={handleImageUpload}
-                    required
-                    id="outlined-size-small"
-                    variant="outlined"
-                    size="small"
-                  /> */}
                   <input
                     name="exampleRequired"
                     type="file"
@@ -326,15 +291,6 @@ const AddProduct = () => {
               </Grid>
               <Grid item xs={6} sm={11}></Grid>
               <input onClick={handleSubmit2} type="submit" />
-
-              {/* <Button
-                size="small"
-                type="submit"
-                color="primary"
-                variant="contained"
-              >
-                Submit
-              </Button> */}
             </Grid>
           </form>
         </Container>

@@ -6,7 +6,7 @@ import Login from "./Components/Login/Login";
 import Checkout from "./Components/Checkout/Checkout";
 import NoMatch from "./Components/NoMatch/NoMatch";
 import AddProduct from "./Components/AddProduct/AddProduct";
-import Search from "./Components/Search/Search";
+import Search from "./Components/Header/Header";
 
 function App() {
   return (
